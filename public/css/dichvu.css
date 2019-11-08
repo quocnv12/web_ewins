@@ -1,0 +1,23 @@
+#dv .thumbnail {
+    width: auto; 
+    overflow: hidden;    
+  }
+  
+  #dv .thumbnail img {
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s; 
+    -moz-transition-duration: 0.5s; 
+    -o-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+  }
+  
+  #dv .thumbnail img:hover {
+    transform: scale(1.2);
+    opacity: 0.6;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2); 
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    cursor: pointer; 
+  }
+

@@ -1,0 +1,147 @@
+
+
+/* :: 11.0 Blog Area */
+.blog-page {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 100px;
+}
+
+.single-blog-area {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 6px; 
+    margin-bottom: 50px;
+}
+
+.single-blog-area img {
+    display: block;
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+}
+
+.single-blog-area .blog-content {
+    padding: 25px; 
+    
+    overflow: hidden;
+  }
+
+.single-blog-area .blog-content .blog-headline {
+    display: block;
+}
+
+.single-blog-area .blog-content .blog-headline h5 {
+    margin-bottom: 5px;
+    margin-left: -1px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    color: #000000a6;
+}
+
+.single-blog-area .blog-content a:hover {
+    color: #088A08;
+    text-decoration:none;
+  }
+
+.single-blog-area .blog-content .blog-headline h5:hover, .single-blog-area .blog-content .blog-headline h5:focus {
+    color: #088A08; 
+  }
+
+.single-blog-area .blog-content .meta {
+    margin-bottom: 15px; 
+  }
+
+.single-blog-area .blog-content .meta span {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 5px;
+    margin-right: 10px; 
+  }
+
+.single-blog-area .blog-content .meta a {
+    color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 10px; 
+  }
+
+.single-blog-area .blog-content .meta a:hover {
+      color: #000; 
+  }
+
+.single-blog-area .blog-content p {
+    margin-bottom: 0; 
+  }
+
+.blog-title{
+  padding: 40px 0 50px 0;
+        
+  }
+
+.blog-title-text{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #715f5f;
+  }
+.load-more .btn-primary{
+  font-size: 25px;
+  border-radius: 0;
+  margin-bottom: 50px;
+  }
+  .load-more .btn-primary:hover{
+   border: 1px solid;
+    }  
+
+@media only screen and (max-width: 767px) {
+      .single-blog-area .blog-content .meta a {
+            font-size: 12px; 
+        } 
+  }
+
+
+  .nav-tabs .nav-item {
+    background-color: #088A08;
+    color: white;
+  }
+
+  .nav-tabs .nav-item a{
+  
+    color: white;
+  }
+
+  
+
+  @media (min-width: 577px){
+    .codongs-tt-title{
+        display: none;
+    }
+}
+
+@media (max-width: 576px){
+  .codongs-tt{
+      display: none;
+  }
+  .codongs-tt-title {
+      width: 112px;
+      border-radius: 2px;
+  }
+  
+
+}
+
+.codongs-tt-title {
+  background-color:#088A08;
+  
+   
+}
+
+#search {
+  position: absolute;
+  z-index: 999;
+  width: 280px;
+  display: none;
+  right:0px;
+  top:40px;
+}
